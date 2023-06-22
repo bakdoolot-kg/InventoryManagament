@@ -1,0 +1,108 @@
+// .box {
+//   background-color: transparent;
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   width: 100%;
+// }
+
+.box {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .nav {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    width: fit-content;
+  }
+
+  .line {
+    height: 2px;
+    margin-top: -2px;
+    min-width: 32px;
+    position: relative;
+  }
+
+  .img {
+    height: 2px;
+    min-width: 32px;
+    position: relative;
+  }
+
+  .line-2 {
+    height: 2px;
+    min-width: 32px;
+    position: relative;
+  }
+
+  .other-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 5px 10px;
+  }
+
+  .search {
+    height: 34px;
+    min-width: 34px;
+    position: relative;
+  }
+
+  .bell {
+    height: 24px;
+    min-width: 24px;
+    position: relative;
+  }
+
+  .profile {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    width: fit-content;
+  }
+
+  .ellipse {
+    height: 40px;
+    min-width: 40px;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .text-wrapper {
+    color: #10153f;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+
+  .down {
+    height: 8px;
+    min-width: 8px;
+    position: relative;
+  }
+}
+
+.burger-header {
+  font-size: 1.5rem;
+}
